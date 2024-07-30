@@ -21,7 +21,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 45%;
     background-color:var(--white);
     border-radius: 15px;
     display: grid;
@@ -55,7 +55,6 @@ p{
 .head{
     font-family: var(--paragraph-font);
     color: var(--dark-grey);
-    padding: 10px 0px;
 }
 
 .cart{
@@ -66,7 +65,7 @@ p{
     border-radius: 10px;
     background-color: var(--dark-cyan);
     color: var(--white);
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     font-family: var(--header-font);
 }
@@ -80,34 +79,32 @@ p{
 .content{
     font-family: var(--paragraph-font);
     color: var(--dark-grey);
-    padding: 10px 0px;
-    line-height: 1.8;
 }
 
 .price{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 10px 0px;
 }
 
 
 .currentPrice{
     font-family: var(--paragraph-font);
     color: var(--dark-cyan);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 
 .previousPrice{
     font-family: var(--paragraph-font);
-    margin-top: 30px;
+    margin-top: 25px;
     color: var(--dark-grey);
     text-decoration: line-through;
 }
 
 .header{
     color: var(--dark-blue);
+    font-size: 18px;
 }
 
 
@@ -118,39 +115,12 @@ p{
         left: 50%;
         transform: translate(-50%, -50%);
         width: 75%;
+        height: fit-content;
         background-color:var(--white);
         border-radius: 15px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         padding: 0px;
-    }
-
-    p{
-        font-size: calc(100% - 2px);
-    }
-
-    h1, h2, h3{
-        font-size: calc(100% - 2px);
-    }
-
-    .currentPrice{
-        font-size: calc(100% - 2px);
-    }
-
-    .previousPrice{
-        font-size: calc(100% - 4px);
-        margin-top: 13px;
-    }
-
-    .cart{
-        font-size: calc(100% - 4px);
-    }
-
-
-    .cart-svg{
-        width: calc(100% -2px);
-        height: calc(100% -2px);
-        margin-right: 10px;
     }
 }
 
