@@ -80,6 +80,7 @@ p{
 .content{
     font-family: var(--paragraph-font);
     color: var(--dark-grey);
+    line-height: 1.5;
 }
 
 .price{
