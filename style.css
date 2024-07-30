@@ -55,6 +55,7 @@ p{
 .head{
     font-family: var(--paragraph-font);
     color: var(--dark-grey);
+    font-size: 22px;
 }
 
 .cart{
@@ -65,14 +66,14 @@ p{
     border-radius: 10px;
     background-color: var(--dark-cyan);
     color: var(--white);
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     font-family: var(--header-font);
 }
 
 .cart-svg{
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
     margin-right: 10px;
 }
 
@@ -90,21 +91,22 @@ p{
 .currentPrice{
     font-family: var(--paragraph-font);
     color: var(--dark-cyan);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 
 .previousPrice{
     font-family: var(--paragraph-font);
-    margin-top: 25px;
+    margin-top: 30px;
     color: var(--dark-grey);
+    font-size: 16px;
     text-decoration: line-through;
 }
 
 .header{
     color: var(--dark-blue);
-    font-size: 18px;
+    font-size: 30px;
 }
 
 
